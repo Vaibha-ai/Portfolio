@@ -7,25 +7,25 @@ const services = [
     {
         num: "01",
         title: "Data Scientist",
-        description: "Manipulate and perform all sorts of analysis on data to find hidden patterns",
+        description: "Leverages statistical techniques and machine learning models to analyze data and uncover actionable insights.",
         href: ""
     },
     {
         num: "02",
         title: "Data Analyst",
-        description: "Manipulate and perform all sorts of analysis on data to find hidden patterns",
+        description: "Interprets complex datasets to provide clear, data-driven insights for decision-making.",
         href: ""
     },
     {
         num: "03",
         title: "PowerBI Analyst",
-        description: "Manipulate and perform all sorts of analysis on data to find hidden patterns",
+        description: "Utilizes Power BI to create interactive visual reports that transform raw data into meaningful business intelligence.",
         href: ""
     },
     {
         num: "04",
         title: "Salesforce Developer",
-        description: "Manipulate and perform all sorts of analysis on data to find hidden patterns",
+        description: "Builds and customizes Salesforce applications to optimize business processes and improve user experience.",
         href: ""
     }
 ];

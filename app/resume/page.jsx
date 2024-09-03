@@ -40,7 +40,7 @@ const about = {
 const experience ={
     icon: '/assets/resume/badge.svg',
     title: "My experience",
-    description: "Worked with large amounts of data and optimized models.",
+    description: "Highlights of my work across various roles.",
     items: [
         {
             company: "Accenture",
@@ -64,7 +64,7 @@ const experience ={
 const education ={
     icon: '/assets/resume/cap.svg',
     title: "My education",
-    description: "Focused on the domain of Information and Technology and had a liking towards Maths.",
+    description: "Details of my academic background and qualifications.",
     items: [
         {
             institution: "Rajagiri School of Engineering and Technology",
@@ -84,7 +84,7 @@ const education ={
 //skills area
 const skills = {
     title: "My skills",
-    description: "Technologies I have worked with in the past and have spent considerable amount of time mastering it",
+    description: "Technologies I have worked with and gained substantial experience in.",
     skillList: [
         {
             icon: <FaPython />,

@@ -33,20 +33,20 @@ const Contact = () => {
             <div className="flex flex-col xl:flex-row gap-[30px]">
                 {/* form */}
                 <div className="xl:w-[54%] order-2 xl:order-none">
-                    <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+                    <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" action="https://formsubmit.co/u2008066@rajagiri.edu.in" method="POST">
                         <h3 className="text-4xl text-accent">Let's work together</h3>
                         <p className="text-white/60">
-                        Just give me a messge and I'll be there.
+                        Just throw in a message and I'll try my best to reply asap!.
                         </p>
                         {/* input */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <Input type="firstname" placeholder="Firstname"/>
-                            <Input type="lastname" placeholder="Lastname"/>
-                            <Input type="email" placeholder="Email address"/>
-                            <Input type="phone" placeholder="Phone number"/>
+                            <Input type="firstname" name="firstname" placeholder="Firstname"/>
+                            <Input type="lastname" name="lastname" placeholder="Lastname"/>
+                            <Input type="email" name="email" placeholder="Email address"/>
+                            <Input type="phone" name="phone" placeholder="Phone number"/>
                         </div>
                         {/* select */}
-                        <Select>
+                        <Select name="service">
                             <SelectTrigger className="w-full">
                                 <SelectValue placeholder="Select a service"/>
                             </SelectTrigger>
@@ -63,6 +63,7 @@ const Contact = () => {
                         <Textarea 
                         className="h-[200px]" 
                         placeholder="Type your message here." 
+                        name="message"
                         />
                         {/* btn */}
                         <Button size="md" className="max-w-40">
