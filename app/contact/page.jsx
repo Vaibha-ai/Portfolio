@@ -36,7 +36,7 @@ const Contact = () => {
                     <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" action="https://formsubmit.co/u2008066@rajagiri.edu.in" method="POST">
                         <h3 className="text-4xl text-accent">Let's work together</h3>
                         <p className="text-white/60">
-                        Just throw in a message and I'll try my best to reply asap!.
+                        Feel free to drop a message, and I'll get back to you as soon as possible!
                         </p>
                         {/* input */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

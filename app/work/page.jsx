@@ -13,37 +13,37 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
     {
         num: '01',
-        category: 'frontend',
+        category: 'AI Based Exoplanet Detection',
         title: 'AI Based Exoplanet Detection',
-        description: 'Deep Learning models used for detecting exoplanets using Kepler data',
+        description: 'Developed Deep Learning models to detect exoplanets using data from the Kepler space telescope.',
         stack: [
-            {name: "Deep learning"},{name: "Data Visualization"},{name: "Python"},{name: "Tensorflow"}
+            {name: "CNN"},{name: "Recurrence Plots"},{name: "Python"},{name: "Tensorflow"}
         ],
-        image: "/assets/work/thumb1.png",
+        image: "/assets/work/exoplanet-1.png",
         live: "",
         github: "",
     },
     {
         num: '02',
-        category: 'frontend',
-        title: 'Graduate Admission Prediction',
-        description: 'Predicting the chances of getting admission.',
+        category: 'Medical Resource Scheduler',
+        title: 'MRS',
+        description: 'A scheduling tool that shows the availability of operation theaters, helping clinic staff and technicians avoid scheduling conflicts.',
         stack: [
-            {name: "Data Analysis"},{name: "Data Visualization"},{name: "Python"},{name: "Tensorflow"}
+            {name: "HTML"},{name: "CSS"},{name: "MongoDB"}
         ],
-        image: "/assets/work/thumb2.png",
+        image: "/assets/work/mrs-1.png",
         live: "",
         github: "",
     },
     {
         num: '03',
-        category: 'frontend',
-        title: 'Medical Resource Scheduler',
-        description: 'Schedule Operation Theaters to be always on time.',
+        category: 'Churn Analysis Dashboard',
+        title: 'Churn',
+        description: 'Visualizes customer churn metrics, subscription details, and service usage patterns',
         stack: [
-            {name: "HTML"},{name: "Data Visualization"},{name: "MongoDb"},{name: "CSS"}
+            {name: "PowerBi"},{name: "KPI Tracking"},{name: "Data Insights"}
         ],
-        image: "/assets/work/thumb3.png",
+        image: "/assets/work/churn-1.png",
         live: "",
         github: "",
     },
